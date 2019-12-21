@@ -1,0 +1,27 @@
+api_keys:
+  CONSUMER_KEY: "myconsumerkey"
+  CONSUMER_SECRET: "myconsumersecret"
+  ACCESS_TOKEN: "myaccesstoken"
+  ACCESS_TOKEN_SECRET: "myaccesstokensecret"
+db_options:
+  host: 'localhost'
+  database: 'twitter_db'
+  user: 'postgres'
+  password: 'mypassword'
+  port: '5432'
+locations:
+  manhattan:
+    - -74.05265808105469
+    - 40.694175391548754
+    - -73.81782531738281
+    - 40.91091803848203
+#  london:
+#    - -0.2190399169921875
+#    - 51.46983565499583
+#    - -0.0226593017578125
+#    - 51.56426602441386
+  los_angeles:
+    - -118.46832275390625
+    - 33.701492795584365
+    - -117.87231445312499
+    - 34.17999758688084
